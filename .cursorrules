@@ -1,0 +1,19 @@
+# .cursorrules - Research_Map Project
+
+This repository follows the **Research_Map** framework.
+
+## Where to Read Rules
+
+- `.cursor/rules/global.mdc`
+- `AGENTS.md`
+- `docs/_INDEX.md`
+- `docs/workflows/RESEARCH_MANAGEMENT.md`
+- `plans/_INDEX.md`
+
+## Quick Constraints
+
+1. `docs/` is the system of record.
+2. `guide/` is read-only.
+3. Update `<!-- reviewed: YYYY-MM-DD -->` for doc edits.
+4. Never invent citations; verify or mark placeholders.
+5. Run `scripts/check-structure.sh`, `scripts/check-doc-freshness.sh`, `scripts/check-agent-files.sh`, `scripts/check-doc-links.sh`, `scripts/check-doc-index-coverage.sh`, and `scripts/check-plan-index.sh`.

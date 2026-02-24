@@ -1,0 +1,34 @@
+name: Validate Research_Map
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    name: Validation Suite
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Structure check
+        run: scripts/check-structure.sh
+
+      - name: Documentation freshness check
+        run: scripts/check-doc-freshness.sh --fail-on-stale
+
+      - name: Agent entry-point check
+        run: scripts/check-agent-files.sh
+
+      - name: Local link check
+        run: scripts/check-doc-links.sh
+
+      - name: Docs index coverage check
+        run: scripts/check-doc-index-coverage.sh
+
+      - name: Plan index integrity check
+        run: scripts/check-plan-index.sh

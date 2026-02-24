@@ -1,0 +1,12 @@
+{
+  "skills": {
+    "research-map": {
+      "path": ".claude/skills/research-map/SKILL.md",
+      "description": "Scaffold or audit a Research_Map repository structure"
+    },
+    "session-handoff": {
+      "path": ".claude/skills/session-handoff/SKILL.md",
+      "description": "Generate a session handoff document for continuity"
+    }
+  }
+}

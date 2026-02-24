@@ -1,0 +1,32 @@
+---
+description: Global rules for Research_Map files
+globs: ["**/*"]
+---
+
+# Research_Map - Cursor Rules
+
+> Route to docs; avoid duplicated policy.
+
+## Routing Table
+
+| I need to... | Go to |
+|---|---|
+| Architecture | `docs/architecture/OVERVIEW.md` |
+| Principles | `docs/golden-rules/PRINCIPLES.md` |
+| Standards | `docs/golden-rules/CODING_STANDARDS.md` |
+| Research workflow | `docs/workflows/DEVELOPMENT.md` |
+| Manage research program state | `docs/workflows/RESEARCH_MANAGEMENT.md` |
+| Paper workflow | `docs/workflows/PAPER_WRITING.md` |
+| Review criteria | `docs/workflows/PR_REVIEW.md` |
+| Testing/reproducibility | `docs/workflows/TESTING.md` |
+| Onboarding | `docs/agent-guide/ONBOARDING.md` |
+| Session handoff | `docs/session/SESSION_HANDOFF.md` |
+| Plan index | `plans/_INDEX.md` |
+
+## Rules
+
+1. `docs/` is authoritative.
+2. `guide/` is immutable for agents.
+3. Keep entry files concise.
+4. Citations must be verified.
+5. Run validation scripts pre-commit.
