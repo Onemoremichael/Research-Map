@@ -1,10 +1,10 @@
 # Session Handoff
 
-<!-- reviewed: 2026-02-24 -->
+<!-- reviewed: 2026-03-02 -->
 
 ## Last Updated
 
-2026-02-24
+2026-03-02
 
 ## Session Summary
 
@@ -41,7 +41,7 @@ None.
 
 ## Next Steps
 
-1. Initialize git in this repo and push to `https://github.com/MJ-Ref/Research-Map.git`.
+1. Initialize git in this repo and push to `https://github.com/Onemoremichael/Research-Map.git`.
 2. Add project-specific scripts for reproducibility smoke tests.
 3. Decide whether unresolved citation placeholders should fail CI in strict mode.
 

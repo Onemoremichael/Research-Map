@@ -42,7 +42,7 @@ scripts/check-plan-index.sh
 ### Repository Target
 
 ```bash
-git clone https://github.com/MJ-Ref/Research-Map.git
+git clone https://github.com/Onemoremichael/Research-Map.git
 cd Research-Map
 ```
 
